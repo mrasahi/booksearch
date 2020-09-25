@@ -1,5 +1,6 @@
 const router = require('express').Router()
 
-// connect your routes files here...
+router.use('/api', require('./googleBookAPI.js'))
+router.use('/api', require('./bookRoutes.js'))
 
 module.exports = router
