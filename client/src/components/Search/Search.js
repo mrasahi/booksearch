@@ -14,7 +14,7 @@ const Search = () => {
             <Form>
                 <FormGroup>
                     <Label for="book">Book Search:</Label>
-                    <Input type="book" name="search" onChange={handleInputChange} placeholder="Harry Potter" />
+                    <Input type="book" name="search" onChange={handleInputChange} />
                 </FormGroup>
                 <Button onClick={handleSearch}>Search</Button>
             </Form>

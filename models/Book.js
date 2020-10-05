@@ -9,7 +9,7 @@ const Book = new Schema({
   publisher: String,
   publishedDate: String,
   description: String,
-  imageLink: String,
+  imageLinks: String,
   infoLink: String
 })
 

@@ -1,14 +1,14 @@
 import { createContext } from 'react'
 
-const ContactContext = createContext({
+const BookCardContext = createContext({
     bookid: '',
     title: '',
-    authors: [],
+    authors: '',
     publisher: '',
     publishedDate: '',
     description: '',
-    imageLink: '',
+    imageLinks: '',
     infoLink: '',
 })
 
-export default ContactContext
+export default BookCardContext
